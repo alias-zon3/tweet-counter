@@ -7,7 +7,7 @@ This relies on both the "TwitterAPI" and "xlsxwriter" packages, make sure to "pi
 
 My requirement was to count usages of a hashtag to compose a case study on a campaign and this was what I came up with to get some data together - hopefully someone else can find it useful.
 
-Currently outputs 7 pieces of data, being the tweet count, username, tweet text, retweeted (true/false), retweet count, created at (time of tweet), favourited (true/false) and image url of media attached. 
+Currently outputs 8 pieces of data, being the tweet count, username, tweet text, retweeted (true/false), retweet count, created at (time of tweet), favourited (true/false) and image url of media attached. 
 
 If you require any further information please check example responses at: https://dev.twitter.com/rest/reference/get/search/tweets
 
