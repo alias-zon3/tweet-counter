@@ -1,7 +1,7 @@
 # TweetCounter
 Uses the Twitter REST API to find and parse data using the provided query and outputs to an Excel Spreadsheet.
 
-This relies on both the "TwitterAPI" and "xlsxwriter" packages, make sure to "pip install" both of these before executing the script and uninstall.
+This relies on both the "TwitterAPI" and "xlsxwriter" packages, make sure to "pip install" both of these before executing the script and uninstall after usage if not needed.
 
 # Why?
 
