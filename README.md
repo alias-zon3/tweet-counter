@@ -1,7 +1,20 @@
 # TweetCounter
 Uses the Twitter REST API to find and parse data using the provided query and outputs to an Excel Spreadsheet.
 
-This relies on both the "TwitterAPI" and "xlsxwriter" packages, make sure to "pip install" both of these before executing the script and uninstall after usage if not needed.
+This relies on both the "TwitterAPI" and "xlsxwriter" packages. To install the dependencies, run:
+```
+pip install -r requirements.txt
+```
+
+# Setting Environment Variables
+
+Before running the script, you need to set the following environment variables with your Twitter API credentials:
+```
+export API_KEY='your_api_key'
+export API_SECRET='your_api_secret'
+export ACCESS_TOKEN='your_access_token'
+export ACCESS_TOKEN_SECRET='your_access_token_secret'
+```
 
 # Why?
 
